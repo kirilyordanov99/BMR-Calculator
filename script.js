@@ -1,4 +1,4 @@
-const calories = document.querySelector(".calculator .result .calories");
+const calories = document.querySelector(".calculator .result .calories"); //here are all the variables we are going to use
 const calculateBtn = document.querySelector(
   ".calculator .result .calculate-btn"
 );
@@ -19,7 +19,7 @@ const calculateBMR = (weight, height, age, gender) => {
 
   return 10 * weight + 6.25 * height - 5 * age - 161;
 };
-
+//script for entering data
 calculateBtn.addEventListener("click", () => {
   if (
     age.classList.contains("invalid") ||
