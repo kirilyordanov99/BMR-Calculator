@@ -1,0 +1,99 @@
+
+.calculator {
+    max-width: 300px;
+    font-family: "Roboto", sans-serif;
+    padding: 8px 24px;
+    box-shadow: 0 4px 8px -3px rgba(19, 18, 18, 0.3);
+  }
+  
+  .calculator,
+  .calculator * {
+    box-sizing: border-box;
+  }
+  
+  .calculator h3 {
+    text-align: center;
+    background: #222; /*background color */
+    color: #eae7e7;  /*text color */  
+    font-weight: 100;
+    margin: -8px -24px;
+    margin-bottom: 8px;
+    padding: 16px;
+  }
+  
+  .calculator form h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 16px 0 10px 0;
+  }
+  
+  .calculator form input[type="text"] {
+    width: 100%;
+    padding: 4px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #0d0e0e;
+  }
+  
+  .calculator form input[type="text"].invalid {
+    border: 1px solid red;
+  }
+  
+  .calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .calculator form #female {
+    margin-left: 20px;
+  }
+  
+  .calculator form .height,
+  .calculator form .weight {
+    position: relative;
+  }
+  
+  .calculator form .unit {
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    color: #111111;
+  }
+  
+  .calculator .result .calculate-btn {
+    padding: 8px 24px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    background: #333;
+    color: #f1ecec;
+    cursor: pointer;
+    margin-bottom: 32px;
+  }
+  
+  .calculator.result {
+    text-align: center;
+    color: #4e4e4e;
+    font-size: 18px;
+  }
+  
+  .calculator .result .calories {
+    color: green;
+    font-size: 38px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .calculatorr .result .error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  
+  .calculatoror .result .error-message.active {
+    display: block;
+  }
