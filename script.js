@@ -1,3 +1,4 @@
+//functionality script
 const calories = document.querySelector(".calculator .result .calories"); //here are all the variables we are going to use
 const calculateBtn = document.querySelector(
   ".calculator .result .calculate-btn"
